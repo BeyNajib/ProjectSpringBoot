@@ -19,7 +19,7 @@ public class WeatherServiceDelegate {
     public String callWeatherServiceAndGetData(String weatherName) {
         System.out.println("Getting Weather details for " + weatherName);
         String response = restTemplate
-                .exchange("http://localhost:8098/getWeatherByName/{name}"
+                .exchange("http://localhost:9098/getWeatherByName/{name}"
                         , HttpMethod.GET
                         , null
                         , new ParameterizedTypeReference<String>() {
