@@ -8,7 +8,6 @@ public class Weather {
     @ApiModelProperty(notes = "Zipcode of the city",name="zipcode",required=true,value="test zipcode")
     public String zipcode;
     @ApiModelProperty(notes = "Actual weather of the city",name="meteo",required=true,value="test meteo")
-
     public String meteo;
 
     public String getVilleName() {
