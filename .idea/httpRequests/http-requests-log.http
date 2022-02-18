@@ -1,0 +1,14 @@
+GET http://localhost:8080/getWeatherByCountry/FR
+
+###
+
+GET http://localhost:8080/getWeatherByCountry/{{FR}}
+
+###
+
+GET http://localhost:8080/getWeathers
+
+<> 2022-02-18T140023.401.json
+
+###
+
