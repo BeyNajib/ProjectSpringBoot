@@ -8,7 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ProjectSpringBoot" />
         <module name="springbootdemo" />
+        <module name="hystrix-show-weather" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hystrix-show-weather" options="" />
+    </option>
   </component>
 </project>

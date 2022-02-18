@@ -1,0 +1,3 @@
+com\howtodoinjava\demo\model\Weather.class
+com\howtodoinjava\demo\controller\WeatherController.class
+com\howtodoinjava\demo\SpringBootDemoApplication.class

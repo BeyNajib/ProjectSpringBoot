@@ -15,6 +15,8 @@ public class WeatherController {
     {
         Weathers.add(new Weather("Nice", "06100", "Ensoleillé", "FR"));
         Weathers.add(new Weather("Marseille", "13000", "Nuageux","FR"));
+        Weathers.add(new Weather("Los Angeles", "90012", "Sunny","USA"));
+
     }
 
     // endpoint getWeather (return Weather List)
